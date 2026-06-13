@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "programs": "Programs",
+    "training": "Training",
+    "research": "Research",
+    "studentLife": "Student Life",
+    "elearning": "E-Learning",
+    "applyNow": "Apply Now →",
+    "mega": {
+      "bachelors": {
+        "title": "Bachelor's Degrees",
+        "desc": "Foundational engineering & digital science programs.",
+        "featuredTitle": "2026 Admissions Open",
+        "featuredDesc": "Join the next generation of digital innovators in Algeria.",
+        "featuredBtn": "Apply Now →"
+      },
+      "masters": {
+        "title": "Master's Programs",
+        "desc": "Advanced specialization in tech & management.",
+        "featuredTitle": "Advanced Programs",
+        "featuredDesc": "Explore our state-of-the-art master's degrees for the future.",
+        "featuredBtn": "View Programs →"
+      },
+      "training": {
+        "title": "Professional Training",
+        "desc": "Upskilling & corporate certifications for leaders.",
+        "featuredTitle": "Corporate Training",
+        "featuredDesc": "Empower your workforce with our industry-leading certifications.",
+        "featuredBtn": "Explore Training →"
+      },
+      "elearning": {
+        "title": "E-Learning Hub",
+        "desc": "Access our digital campus from anywhere.",
+        "featuredTitle": "Digital Campus",
+        "featuredDesc": "Learn at your own pace with our cutting-edge e-learning platform.",
+        "featuredBtn": "Visit Platform →"
+      }
+    }
+  },
+  "hero": {
+    "badgeText": "Now Booking Academic & Professional Enrollments",
+    "title": "Building Algeria's Next Generation of Digital Leaders",
+    "subtitle": "Engineering education, professional certifications, continuous training, and digital innovation programs designed to prepare students and professionals for the future of Information Technology, Telecommunications, Networks, and Digital Transformation.",
+    "ctaPrimary": "Apply Now",
+    "ctaSecondary": "Explore Programs",
+    "promo": {
+      "title": "Next Event",
+      "cta": "Join Us →"
+    },
+    "slides": [
+      {
+        "tag": "Now Booking Academic Enrollments",
+        "title": "Building Algeria's Next Generation of Digital Leaders",
+        "sub": "Engineering education, professional certifications, and digital innovation programs designed to prepare you for the future of IT."
+      },
+      {
+        "tag": "Professional Training",
+        "title": "Accelerate Your Tech Career",
+        "sub": "Industry-aligned certifications and continuous training programs to keep your skills sharp in a rapidly evolving digital world."
+      },
+      {
+        "tag": "Applied Research",
+        "title": "Innovating for Tomorrow",
+        "sub": "Partnering with global telecom and IT operators to solve real-world challenges through cutting-edge research and technology transfer."
+      }
+    ],
+    "stats": [
+      { "value": "700+", "label": "Graduates" },
+      { "value": "50+", "label": "Training Programs" },
+      { "value": "3,500+", "label": "Professionals Trained Annually" },
+      { "value": "Industry", "label": "Partnerships Across Algeria" }
+    ]
+  },
+  "whoWeAre": {
+    "title": "A National Institution Dedicated to Digital Excellence",
+    "description": "INPTIC is a higher education and professional training institution specializing in Information Technology, Telecommunications, Networks, Digital Systems, Management, and Innovation. Our mission is to develop highly skilled engineers, technology professionals, and future leaders capable of supporting Algeria's digital transformation through education, research, and industry collaboration.",
+    "highlights": [
+      "Engineering Education",
+      "Professional Certifications",
+      "Research & Innovation",
+      "Continuous Professional Development",
+      "Industry Partnerships",
+      "Digital Skills Development"
+    ]
+  },
+  "academic": {
+    "label": "Education",
+    "title": "Our Academic Programs",
+    "subtitle": "Shaping technological expertise through specialized BAC+5 and advanced pathways.",
+    "cta": "Discover Academic Programs",
+    "programs": [
+      {
+        "title": "State Engineering Degree (BAC+5)",
+        "description": "Specialized engineering program focused on telecommunications, network systems, digital technologies, ICT infrastructure, and emerging innovation. Graduates develop the technical and managerial expertise required to thrive in the digital economy.",
+        "features": ["Telecommunications", "Network Systems", "Digital Technologies", "ICT Infrastructure", "Emerging Technologies"]
+      },
+      {
+        "title": "Postgraduate & Advanced Studies",
+        "description": "Advanced academic pathways supporting research, innovation, and specialization in technology-driven fields. Tailored for graduates wishing to pursue scientific excellence and apply breakthroughs to industry challenges.",
+        "features": ["Scientific Research", "Applied Technologies", "Bespoke Specializations", "Academic Publishing"]
+      }
+    ]
+  },
+  "training": {
+    "label": "Continuous Learning",
+    "title": "Professional Training & Certifications",
+    "subtitle": "Upgrade Your Skills for the Digital Economy",
+    "description": "Whether you're an employee, manager, entrepreneur, or public-sector professional, our training programs help you stay ahead in a rapidly evolving digital world.",
+    "cta": "Browse Training Catalog",
+    "areas": [
+      {
+        "title": "Information Technology",
+        "description": "Database Systems, Microsoft Technologies, Operating Systems, Cloud Fundamentals"
+      },
+      {
+        "title": "Networks & Telecommunications",
+        "description": "Cisco Networking, Fiber Optics, Network Infrastructure, Telecommunications Systems"
+      },
+      {
+        "title": "Programming & Development",
+        "description": "Web Development, Java, Databases, Software Engineering"
+      },
+      {
+        "title": "Leadership & Management",
+        "description": "Human Resources, Business Administration, Project Management"
+      },
+      {
+        "title": "Personal Development",
+        "description": "Communication, Leadership, Productivity, Professional Skills"
+      },
+      {
+        "title": "Languages",
+        "description": "Professional language training for modern workplaces"
+      }
+    ]
+  },
+  "elearning": {
+    "label": "Remote Education",
+    "title": "Learn Anywhere",
+    "subtitle": "Digital Learning Platform",
+    "description": "Access flexible online learning experiences designed for modern professionals and students. Get certified on your own schedule with guided, expert support.",
+    "cta": "Access E-Learning Platform →",
+    "features": [
+      "Self-paced learning",
+      "Virtual classrooms",
+      "Interactive sessions",
+      "Digital certifications",
+      "Expert-led instruction"
+    ]
+  },
+  "research": {
+    "label": "Science & Technology",
+    "title": "Shaping the Future Through Research",
+    "subtitle": "We encourage innovation, scientific research, and collaboration between academia and industry to drive Algeria's technological advancement.",
+    "cta": "Explore Research Initiatives →",
+    "pillars": [
+      "Applied Research",
+      "Technology Development",
+      "Innovation Projects",
+      "Industry Collaboration",
+      "Knowledge Transfer"
+    ]
+  },
+  "industry": {
+    "label": "Collaboration",
+    "title": "Industry & Partnerships",
+    "subtitle": "Connecting Education with Industry",
+    "description": "INPTIC works closely with public institutions, telecommunications operators, technology organizations, and private-sector partners to ensure our programs remain aligned with market needs.",
+    "benefits": [
+      { "title": "Internship Opportunities", "desc": "Gain hands-on experience in telecommunications and IT companies across Algeria." },
+      { "title": "Recruitment Pipelines", "desc": "Connecting talented engineering graduates directly to leading digital operators." },
+      { "title": "Joint Projects", "desc": "Collaborative research and development projects addressing practical industry challenges." },
+      { "title": "Specialized Training", "desc": "Tailored programs designed to upgrade operators' staff technical capabilities." },
+      { "title": "Technology Transfer", "desc": "Migrating innovation and scientific breakthroughs directly into industrial systems." }
+    ]
+  },
+  "studentLife": {
+    "label": "Campus Experience",
+    "title": "Beyond the Classroom",
+    "subtitle": "A vibrant environment that supports personal growth, scientific clubs, innovation initiatives, sports activities, and collaborative learning experiences.",
+    "activities": [
+      { "title": "Scientific Clubs", "desc": "Engage in robotics, AI, coding challenges, and peer-to-peer technical meetups." },
+      { "title": "Innovation Challenges", "desc": "Hackathons, pitch competitions, and incubator launchpads for student startups." },
+      { "title": "Student Events", "desc": "Tech days, webinars, social gatherings, and graduation celebrations." },
+      { "title": "Sports Activities", "desc": "Leagues, dynamic tournaments, and campus fitness wellness events." },
+      { "title": "Community Engagement", "desc": "Charity drives, mentoring initiatives, and digital literacy volunteering." }
+    ]
+  },
+  "news": {
+    "label": "Latest Updates",
+    "title": "News & Announcements",
+    "items": [
+      { "category": "Admissions", "date": "June 2026", "title": "2026 Engineering Admissions", "description": "The application portal for our prestigious engineering program is now officially open to prospective students worldwide." },
+      { "category": "Events", "date": "May 2026", "title": "INPTIC Digital Summit", "description": "Join our annual flagship event where global tech leaders and students gather to explore the future of digital transformation." },
+      { "category": "Academic", "date": "April 2026", "title": "Industry Internships", "description": "A landmark partnership with top telecom operators to guarantee hands-on, real-world industry experience for senior students." }
+    ]
+  },
+  "faq": {
+    "label": "Support & Info",
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got Questions? We've Got Answers",
+    "items": [
+      {
+        "question": "How do I apply for the 2026 Engineering program?",
+        "answer": "You can apply online through our official admissions portal. The process requires a completed application form, official transcripts, and passing our entrance examination."
+      },
+      {
+        "question": "Are there scholarships available for international students?",
+        "answer": "Yes! INPTIC offers merit-based scholarships and financial aid programs for both local and international students who demonstrate exceptional academic records."
+      },
+      {
+        "question": "Is the E-Learning platform available 24/7?",
+        "answer": "Absolutely. Our digital campus and all recorded lectures, resources, and interactive quizzes are accessible 24/7 from anywhere in the world."
+      },
+      {
+        "question": "What industry partnerships does INPTIC have?",
+        "answer": "We partner with leading global telecom operators, tech giants, and local startups to provide our students with hands-on internships, direct mentorship, and job placements."
+      },
+      {
+        "question": "Can professionals enroll in master's programs part-time?",
+        "answer": "Yes, our professional training and specialized master's programs offer flexible evening and weekend schedules designed specifically for working professionals."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Start Your Digital Future Today",
+    "description": "Join a community of students, professionals, educators, and innovators committed to shaping the future of technology and digital transformation in Algeria.",
+    "ctaPrimary": "Apply Now",
+    "ctaSecondary": "Contact Admissions"
+  },
+  "footer": {
+    "tagline": "Building Algeria's Next Generation of Digital Leaders.",
+    "address": "Les Eucalyptus, Algiers, Algeria",
+    "rights": "All rights reserved.",
+    "quickLinks": "Quick Links",
+    "location": "Campus Location",
+    "contact": "Contact Us",
+    "links": {
+      "academic": "Academic Programs",
+      "training": "Professional Training",
+      "elearning": "E-Learning",
+      "research": "Research",
+      "studentServices": "Student Services",
+      "contactPage": "Contact"
+    }
+  }
+}

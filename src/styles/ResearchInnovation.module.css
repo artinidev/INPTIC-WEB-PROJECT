@@ -1,0 +1,56 @@
+.section {
+  padding: var(--space-huge) 0;
+  background-color: var(--clr-primary);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xxl);
+  align-items: center;
+}
+
+.title {
+  font-size: var(--fs-h2);
+  margin-bottom: var(--space-md);
+}
+
+.description {
+  font-size: var(--fs-lg);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: var(--line-relaxed);
+  margin-bottom: var(--space-xl);
+}
+
+.pillarsList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.pillarCard {
+  padding: var(--space-md) var(--space-xl);
+  border-radius: var(--radius-sm);
+  background: rgba(255, 255, 255, 0.02);
+  border-left: 3px solid var(--clr-accent);
+  display: flex;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.03);
+  border-right: 1px solid rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.pillarText {
+  font-size: var(--fs-base);
+  font-weight: var(--fw-semibold);
+  color: var(--clr-white);
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1.1fr 1fr;
+    gap: var(--space-xxxl);
+  }
+}

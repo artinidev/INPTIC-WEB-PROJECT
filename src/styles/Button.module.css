@@ -1,0 +1,68 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  padding: 0.85rem 1.75rem;
+  border-radius: var(--radius-sm); /* Ordina uses slightly sharper/cleaner corners */
+  border: 1px solid transparent;
+  cursor: pointer;
+  outline: none;
+  gap: 0.5rem;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  letter-spacing: -0.01em;
+}
+
+.button:focus-visible {
+  box-shadow: 0 0 0 3px rgba(203, 255, 151, 0.4);
+}
+
+.primary {
+  background-color: var(--clr-accent);
+  color: var(--clr-black);
+  box-shadow: 0 4px 14px 0 rgba(203, 255, 151, 0.15);
+}
+
+.primary:hover {
+  background-color: var(--clr-accent-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px 0 rgba(203, 255, 151, 0.25);
+}
+
+.primary:active {
+  transform: translateY(0);
+}
+
+.secondary {
+  background-color: rgba(255, 255, 255, 0.06);
+  color: var(--clr-white);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.secondary:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.15);
+  transform: translateY(-1px);
+}
+
+.secondary:active {
+  transform: translateY(0);
+}
+
+.outline {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  color: var(--clr-white);
+}
+
+.outline:hover {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-1px);
+}
+
+.outline:active {
+  transform: translateY(0);
+}

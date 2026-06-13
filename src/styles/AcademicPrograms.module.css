@@ -1,0 +1,66 @@
+.section {
+  padding: var(--space-huge) 0;
+  background-color: var(--clr-black);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xxl);
+}
+
+.card {
+  padding: var(--space-xxl);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: var(--radius-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+.cardBody {
+  margin-bottom: var(--space-xl);
+}
+
+.cardTitle {
+  font-size: var(--fs-xl);
+  margin-bottom: var(--space-sm);
+  letter-spacing: -0.01em;
+}
+
+.cardDescription {
+  font-size: var(--fs-base);
+  color: rgba(255, 255, 255, 0.7);
+  line-height: var(--line-relaxed);
+  margin-bottom: var(--space-lg);
+}
+
+.featuresGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.featureBadge {
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-medium);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-sm);
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.actionWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-xl);
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

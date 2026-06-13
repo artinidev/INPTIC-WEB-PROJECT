@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "programs": "Programmes",
+    "training": "Formation",
+    "research": "Recherche",
+    "studentLife": "Vie Étudiante",
+    "elearning": "E-Learning",
+    "applyNow": "Postuler →",
+    "mega": {
+      "bachelors": {
+        "title": "Diplômes de Licence",
+        "desc": "Programmes fondamentaux en ingénierie et sciences numériques.",
+        "featuredTitle": "Admissions 2026 Ouvertes",
+        "featuredDesc": "Rejoignez la prochaine génération d'innovateurs numériques en Algérie.",
+        "featuredBtn": "Postuler Maintenant →"
+      },
+      "masters": {
+        "title": "Programmes de Master",
+        "desc": "Spécialisation avancée en technologie et management.",
+        "featuredTitle": "Programmes Avancés",
+        "featuredDesc": "Explorez nos diplômes de master de pointe pour l'avenir.",
+        "featuredBtn": "Voir les Programmes →"
+      },
+      "training": {
+        "title": "Formation Professionnelle",
+        "desc": "Perfectionnement et certifications d'entreprise pour les leaders.",
+        "featuredTitle": "Formation en Entreprise",
+        "featuredDesc": "Autonomisez votre main-d'œuvre avec nos certifications de pointe.",
+        "featuredBtn": "Explorer les Formations →"
+      },
+      "elearning": {
+        "title": "Plateforme E-Learning",
+        "desc": "Accédez à notre campus numérique depuis n'importe où.",
+        "featuredTitle": "Campus Numérique",
+        "featuredDesc": "Apprenez à votre propre rythme avec notre plateforme e-learning.",
+        "featuredBtn": "Visiter la Plateforme →"
+      }
+    }
+  },
+  "hero": {
+    "badgeText": "Inscriptions Académiques et Professionnelles Ouvertes",
+    "title": "Bâtir la Prochaine Génération de Leaders Numériques en Algérie",
+    "subtitle": "Formation d'ingénieurs, certifications professionnelles et programmes d'innovation numérique conçus pour préparer les étudiants et professionnels à l'avenir des TIC.",
+    "ctaPrimary": "Postuler",
+    "ctaSecondary": "Explorer les Programmes",
+    "promo": {
+      "title": "Prochain Événement",
+      "cta": "Nous Rejoindre →"
+    },
+    "slides": [
+      {
+        "tag": "Inscriptions Académiques Ouvertes",
+        "title": "Bâtir la Prochaine Génération de Leaders Numériques",
+        "sub": "Formation d'ingénieurs et certifications conçues pour l'avenir des TIC."
+      },
+      {
+        "tag": "Formation Professionnelle",
+        "title": "Accélérez Votre Carrière Technologique",
+        "sub": "Certifications alignées sur l'industrie et programmes de formation continue."
+      },
+      {
+        "tag": "Recherche Appliquée",
+        "title": "Innover pour Demain",
+        "sub": "Partenariat avec les opérateurs mondiaux pour résoudre des défis concrets."
+      }
+    ],
+    "stats": [
+      { "value": "700+", "label": "Diplômés" },
+      { "value": "50+", "label": "Programmes" },
+      { "value": "3,500+", "label": "Professionnels Formés" },
+      { "value": "Industrie", "label": "Partenariats Nationaux" }
+    ]
+  },
+  "whoWeAre": {
+    "title": "Une Institution Nationale Dédiée à l'Excellence Numérique",
+    "description": "L'INPTIC est un établissement d'enseignement supérieur spécialisé dans les Technologies de l'Information, les Télécommunications, les Réseaux et l'Innovation. Notre mission est de développer des ingénieurs hautement qualifiés.",
+    "highlights": [
+      "Formation d'Ingénieurs",
+      "Certifications Pro",
+      "Recherche & Innovation",
+      "Formation Continue",
+      "Partenariats Industriels",
+      "Compétences Numériques"
+    ]
+  },
+  "academic": {
+    "label": "Éducation",
+    "title": "Nos Programmes Académiques",
+    "subtitle": "Forger une expertise technologique via des parcours BAC+5 spécialisés.",
+    "cta": "Découvrir les Programmes",
+    "programs": [
+      {
+        "title": "Diplôme d'Ingénieur d'État (BAC+5)",
+        "description": "Programme d'ingénierie spécialisé axé sur les télécommunications, les réseaux, les technologies numériques et l'infrastructure TIC.",
+        "features": ["Télécommunications", "Réseaux", "Technologies Numériques", "Infrastructure TIC", "Technologies Émergentes"]
+      },
+      {
+        "title": "Études Supérieures & Avancées",
+        "description": "Parcours académiques avancés soutenant la recherche, l'innovation et la spécialisation dans des domaines axés sur la technologie.",
+        "features": ["Recherche Scientifique", "Technologies Appliquées", "Spécialisations Sur Mesure", "Publications Académiques"]
+      }
+    ]
+  },
+  "training": {
+    "label": "Formation Continue",
+    "title": "Formation Professionnelle",
+    "subtitle": "Améliorez vos compétences pour l'économie numérique",
+    "description": "Que vous soyez employé, manager ou entrepreneur, nos programmes vous aident à garder une longueur d'avance.",
+    "cta": "Parcourir le Catalogue",
+    "areas": [
+      { "title": "Technologies de l'Information", "description": "Bases de données, Technologies Microsoft, Cloud" },
+      { "title": "Réseaux & Télécoms", "description": "Réseaux Cisco, Fibre Optique, Systèmes de Télécom" },
+      { "title": "Développement", "description": "Développement Web, Java, Génie Logiciel" },
+      { "title": "Leadership & Management", "description": "Ressources Humaines, Gestion de Projet" },
+      { "title": "Développement Personnel", "description": "Communication, Leadership, Productivité" },
+      { "title": "Langues", "description": "Formation linguistique professionnelle" }
+    ]
+  },
+  "elearning": {
+    "label": "Éducation à Distance",
+    "title": "Apprenez Partout",
+    "subtitle": "Plateforme d'Apprentissage Numérique",
+    "description": "Accédez à des expériences d'apprentissage en ligne flexibles conçues pour les professionnels modernes.",
+    "cta": "Accéder à la Plateforme →",
+    "features": [
+      "Apprentissage autonome",
+      "Classes virtuelles",
+      "Sessions interactives",
+      "Certifications numériques",
+      "Enseignement par des experts"
+    ]
+  },
+  "research": {
+    "label": "Science & Technologie",
+    "title": "Façonner l'Avenir par la Recherche",
+    "subtitle": "Nous encourageons l'innovation et la collaboration entre le monde universitaire et l'industrie.",
+    "cta": "Explorer les Initiatives →",
+    "pillars": [
+      "Recherche Appliquée",
+      "Développement Tech",
+      "Projets d'Innovation",
+      "Collaboration Ind",
+      "Transfert de Savoir"
+    ]
+  },
+  "industry": {
+    "label": "Collaboration",
+    "title": "Industrie & Partenariats",
+    "subtitle": "Connecter l'Éducation à l'Industrie",
+    "description": "L'INPTIC travaille en étroite collaboration avec les institutions publiques et les opérateurs de télécommunications.",
+    "benefits": [
+      { "title": "Stages", "desc": "Acquérez une expérience pratique dans les entreprises informatiques." },
+      { "title": "Recrutement", "desc": "Connecter les diplômés directement aux principaux opérateurs." },
+      { "title": "Projets Conjoints", "desc": "Projets de R&D collaboratifs." },
+      { "title": "Formations", "desc": "Programmes sur mesure pour le personnel des opérateurs." },
+      { "title": "Transfert Tech", "desc": "Migration de l'innovation vers les systèmes industriels." }
+    ]
+  },
+  "studentLife": {
+    "label": "Vie de Campus",
+    "title": "Au-delà de la Salle de Classe",
+    "subtitle": "Un environnement dynamique qui soutient la croissance personnelle et l'innovation.",
+    "activities": [
+      { "title": "Clubs Scientifiques", "desc": "Participez à la robotique, l'IA, et aux défis de codage." },
+      { "title": "Défis d'Innovation", "desc": "Hackathons et concours de pitch pour startups." },
+      { "title": "Événements Étudiants", "desc": "Journées technologiques, webinaires et célébrations." },
+      { "title": "Activités Sportives", "desc": "Ligues et événements de bien-être sur le campus." },
+      { "title": "Engagement Communautaire", "desc": "Bénévolat et initiatives de mentorat." }
+    ]
+  },
+  "news": {
+    "label": "Dernières Mises à Jour",
+    "title": "Actualités & Annonces",
+    "items": [
+      { "category": "Admissions", "date": "Juin 2026", "title": "Admissions en Ingénierie 2026", "description": "Le portail de candidature est officiellement ouvert." },
+      { "category": "Événements", "date": "Mai 2026", "title": "Sommet Numérique INPTIC", "description": "Rejoignez notre événement phare annuel." },
+      { "category": "Académique", "date": "Avril 2026", "title": "Stages Industriels", "description": "Partenariat historique avec les principaux opérateurs." }
+    ]
+  },
+  "faq": {
+    "label": "Support & Info",
+    "title": "Questions Fréquentes",
+    "subtitle": "Vous avez des questions ? Nous avons les réponses",
+    "items": [
+      { "question": "Comment postuler au programme d'ingénierie 2026 ?", "answer": "Vous pouvez postuler en ligne via notre portail." },
+      { "question": "Y a-t-il des bourses disponibles ?", "answer": "Oui ! L'INPTIC offre des bourses basées sur le mérite." },
+      { "question": "La plateforme e-learning est-elle disponible 24/7 ?", "answer": "Absolument. Notre campus numérique est accessible 24/7." },
+      { "question": "Quels sont les partenariats industriels de l'INPTIC ?", "answer": "Nous travaillons avec les principaux opérateurs télécoms et géants de la tech." },
+      { "question": "Les professionnels peuvent-ils s'inscrire à temps partiel ?", "answer": "Oui, nous offrons des horaires flexibles pour les professionnels." }
+    ]
+  },
+  "finalCta": {
+    "title": "Commencez Votre Avenir Numérique Aujourd'hui",
+    "description": "Rejoignez une communauté d'étudiants et professionnels engagés à façonner l'avenir.",
+    "ctaPrimary": "Postuler",
+    "ctaSecondary": "Contacter les Admissions"
+  },
+  "footer": {
+    "tagline": "Bâtir la Prochaine Génération de Leaders Numériques en Algérie.",
+    "address": "Les Eucalyptus, Alger, Algérie",
+    "rights": "Tous droits réservés.",
+    "quickLinks": "Liens Rapides",
+    "location": "Emplacement du Campus",
+    "contact": "Contactez-nous",
+    "links": {
+      "academic": "Programmes Académiques",
+      "training": "Formation Pro",
+      "elearning": "E-Learning",
+      "research": "Recherche",
+      "studentServices": "Services Étudiants",
+      "contactPage": "Contact"
+    }
+  }
+}
