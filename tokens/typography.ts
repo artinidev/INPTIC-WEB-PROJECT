@@ -1,6 +1,6 @@
 export const typography = {
   fonts: {
-    base: 'NexoFont, "NexoFont Fallback", sans-serif',
+    base: 'ArtiniFont, "ArtiniFont Fallback", sans-serif',
   },
   sizes: {
     h1: "48px",
