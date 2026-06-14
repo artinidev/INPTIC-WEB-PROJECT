@@ -1892,7 +1892,8 @@ html[dir="rtl"] .nx-ministry-logo { right: auto; left: 4rem; }
   }
   
   .nx-ministry-logo {
-    bottom: 12rem; /* Moved up correspondingly */
+    top: 8rem; /* Placed above the title */
+    bottom: auto !important;
     left: 50% !important;
     right: auto !important;
     transform: translateX(-50%) !important; /* Perfect physical center */
