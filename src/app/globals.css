@@ -1876,11 +1876,7 @@ html[dir="rtl"] .nx-ministry-logo { right: auto; left: 4rem; }
 /* Mobile Layout */
 @media (max-width: 1024px) {
   .nx-promo-gadget {
-    top: 6rem;
-    left: 50% !important;
-    right: auto !important;
-    transform: translateX(-50%) !important; /* Perfect physical center */
-    width: 260px;
+    display: none !important; /* Hidden on mobile */
   }
   
   .nx-stats-gadget {
