@@ -13,7 +13,7 @@ const promoImages = [
 const PromoGadget = () => {
   const [activePromo, setActivePromo] = useState(0);
   const { t, language } = useTranslation();
-  
+
   // Create localized events array based on image list and same promo title/cta structure
   const promoEvents = promoImages.map((img, i) => ({
     id: i + 1,
@@ -34,21 +34,7 @@ const PromoGadget = () => {
       initial={{ opacity: 0, x: 20 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 1.2, duration: 0.8 }}
-      style={{
-        position: "absolute",
-        top: "8rem",
-        right: language === "ar" ? "auto" : "3rem",
-        left: language === "ar" ? "3rem" : "auto",
-        zIndex: 20,
-        width: "300px",
-        background: "rgba(255, 255, 255, 0.1)",
-        backdropFilter: "blur(12px)",
-        WebkitBackdropFilter: "blur(12px)",
-        border: "1px solid rgba(255,255,255,0.2)",
-        borderRadius: "16px",
-        overflow: "hidden",
-        boxShadow: "0 10px 30px rgba(0,0,0,0.15)"
-      }}
+      className="nx-promo-gadget"
     >
       <div style={{ position: "relative", width: "100%", height: "160px" }}>
         <AnimatePresence mode="wait">
@@ -60,11 +46,11 @@ const PromoGadget = () => {
             transition={{ duration: 0.5 }}
             style={{ position: "absolute", inset: 0 }}
           >
-            <Image 
-              src={promoEvents[activePromo].image} 
-              alt={promoEvents[activePromo].title} 
-              fill 
-              style={{ objectFit: "cover" }} 
+            <Image
+              src={promoEvents[activePromo].image}
+              alt={promoEvents[activePromo].title}
+              fill
+              style={{ objectFit: "cover" }}
             />
             {/* Gradient overlay for text readability */}
             <div style={{ position: "absolute", inset: 0, background: "linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%)" }} />
@@ -95,14 +81,14 @@ const PromoGadget = () => {
       {/* Carousel dots */}
       <div style={{ display: "flex", justifyContent: "center", gap: "0.5rem", padding: "0.75rem", background: "rgba(0,0,0,0.3)" }}>
         {promoEvents.map((_, i) => (
-          <div 
-            key={i} 
-            style={{ 
-              width: "6px", height: "6px", borderRadius: "50%", 
+          <div
+            key={i}
+            style={{
+              width: "6px", height: "6px", borderRadius: "50%",
               background: i === activePromo ? "#38bdf8" : "rgba(255,255,255,0.3)",
               transition: "background 0.3s ease",
               cursor: "pointer"
-            }} 
+            }}
             onClick={() => setActivePromo(i)}
           />
         ))}
@@ -182,12 +168,12 @@ export const HeroSection: React.FC = () => {
       {/* Background Images Layer */}
       {slides.map((slide, i) => (
         <div key={`bg-${i}`} className={`nx-hero-slide-bg ${i === activeIndex ? "active" : ""}`}>
-          <Image 
-            src={slide.image} 
-            alt={slide.title} 
-            fill 
-            priority={i === 0} 
-            className="nx-hero-img" 
+          <Image
+            src={slide.image}
+            alt={slide.title}
+            fill
+            priority={i === 0}
+            className="nx-hero-img"
             sizes="100vw"
             quality={100}
             unoptimized={true}
@@ -202,12 +188,12 @@ export const HeroSection: React.FC = () => {
       <div className="nx-container nx-hero-content-wrapper">
         <div className="nx-hero-text-block">
           {slides.map((slide, i) => (
-            <div 
-              key={`content-${i}`} 
+            <div
+              key={`content-${i}`}
               className={`nx-hero-slide-content ${i === activeIndex ? "active" : i === prevIndex ? "leaving" : ""}`}
             >
               <div className="nx-hero-tag">
-                <span style={{width: "6px", height: "6px", borderRadius: "50%", background: "var(--color-primary)"}} />
+                <span style={{ width: "6px", height: "6px", borderRadius: "50%", background: "var(--color-primary)" }} />
                 {slide.tag}
               </div>
 
@@ -226,9 +212,9 @@ export const HeroSection: React.FC = () => {
       {/* Navigation Dots */}
       <div className="nx-container nx-hero-nav">
         {slides.map((_, i) => (
-          <button 
-            key={`dot-${i}`} 
-            className={`nx-hero-dot ${i === activeIndex ? "active" : ""}`} 
+          <button
+            key={`dot-${i}`}
+            className={`nx-hero-dot ${i === activeIndex ? "active" : ""}`}
             onClick={() => handleDotClick(i)}
             aria-label={`Go to slide ${i + 1}`}
             style={{ border: "none", padding: 0 }}
@@ -239,28 +225,11 @@ export const HeroSection: React.FC = () => {
       <PromoGadget />
 
       {/* Bottom Right Stats Gadget (Beside Logo) */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8, duration: 0.8 }}
-        style={{
-          position: "absolute",
-          bottom: "3rem",
-          right: language === "ar" ? "auto" : "15rem",
-          left: language === "ar" ? "15rem" : "auto",
-          zIndex: 20,
-          background: "rgba(255, 255, 255, 0.1)",
-          backdropFilter: "blur(12px)",
-          WebkitBackdropFilter: "blur(12px)",
-          border: "1px solid rgba(255,255,255,0.2)",
-          padding: "1rem 2rem",
-          borderRadius: "100px",
-          display: "flex",
-          alignItems: "center",
-          gap: "2.5rem",
-          color: "white",
-          boxShadow: "0 10px 30px rgba(0,0,0,0.1)"
-        }}
+        className="nx-stats-gadget"
       >
         <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
           <div style={{ display: "flex", alignItems: "baseline", gap: "2px" }}>
@@ -288,24 +257,18 @@ export const HeroSection: React.FC = () => {
       </motion.div>
 
       {/* Bottom Right Floating Logo */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1, duration: 0.8 }}
-        style={{
-          position: "absolute",
-          bottom: "3rem",
-          right: language === "ar" ? "auto" : "4rem",
-          left: language === "ar" ? "4rem" : "auto",
-          zIndex: 20,
-        }}
+        className="nx-ministry-logo"
       >
-        <Image 
-          src="/hero-logo.png" 
-          alt="INPTIC Logo" 
-          width={150} 
-          height={150} 
-          style={{ objectFit: "contain", filter: "drop-shadow(0 10px 20px rgba(0,0,0,0.15))" }} 
+        <Image
+          src="/hero-logo.png"
+          alt="INPTIC Logo"
+          width={150}
+          height={150}
+          style={{ objectFit: "contain", filter: "drop-shadow(0 10px 20px rgba(0,0,0,0.15))" }}
         />
       </motion.div>
     </section>
